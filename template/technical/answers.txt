@@ -1,0 +1,18 @@
+1. Attach a pubspec.yaml file from one of your past flutter projects.
+A) Add file to "technical" folder
+
+2. What is your understanding of the term “State Management” when talking about Flutter App Development. Explain it in your own words.
+A) state management is management of project where we create different dart files and manage properties so that it can available
+  in most efficient way possible. suppose a boolean value is created at a bottom layer of widget tree (lower in state management)
+  but, the boolean value account for a feature in the app and needs to be used on a top level in the widget tree
+   by uplifting/downlifting any property we can make it available to any part of the widget tree.
+
+
+3. When/Where do you usually encounter bugs in your development process?
+A) I usually encounter bugs while implementing widget inside widgets. for example, when i try to use column inside row vice-versa,
+   if i put children/containers inside it sometimes the output result can be stretched. to rectify the bug we generally use expanded widget
+   or a well structured widget tree.
+
+How important is it to keep the code readable and clean? What best practices do you follow for structuring and writing code so that it is easy to read?
+A) Code readability is important, especially if we are working as a team. I prefer to make my code clean by extracting widgets
+   to make code reusable and avoid repeatation also state management is used.

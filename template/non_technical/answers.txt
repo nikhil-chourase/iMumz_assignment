@@ -1,0 +1,11 @@
+1. How do you stay updated about topics in Flutter/Dart and active in the community? (Discord/Slack/MeetUps/Twitter)
+A) I always try to bring the efficient code to  the project. Using Stack Overflow, Flutter/dart documentation
+      and refer to developers/creators on Youtube. Sometimes The Syntax is updated by flutter, any
+      specific widget/call(function).
+
+2. Your most used IDE/keyboard shortcuts when coding. (for Flutter/Dart)
+A) ctrl+shift+I is the most frequent keyboard shortcut, It opens window to learn properties of any widget/package/function
+
+
+3. How do you approach responsiveness when coding an entire screen? (You can attach code snippet for better explanation).
+A) rather than setting layout first work on color typography setting background first(global styling).
